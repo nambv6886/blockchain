@@ -1,0 +1,7 @@
+{
+  "types": [
+    {"name":"2m","pair_id": 1, "time_of_game":  120000, "move_amount": 2, "max_amount": 2000},
+    {"name":"5m","pair_id": 1, "time_of_game":  300000, "move_amount": 5, "max_amount": 3500},
+    {"name":"10m","pair_id": 1, "time_of_game":  600000, "move_amount": 10, "max_amount": 5000}
+  ]
+}

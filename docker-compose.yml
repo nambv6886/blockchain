@@ -1,0 +1,12 @@
+version: "3"
+services:
+  blockchain_service:
+    container_name: blockchain_service
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    environment:
+      ENV_NAME: production
+    ports:
+      - 8976:8976
